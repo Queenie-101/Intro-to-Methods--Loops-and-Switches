@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loops in JS</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var drinks = ["milkshakes", "smoothies", "cola", "milk-based", "juice", "bubble tea"]
+            var text = "";
+            var i;
+            for (i=0;i<drinks.length; i++)
+        {
+            text +=drinks[i] +"<br>";
+        }
+        document.getElementById("demo").innerHTML=text;
+        </script>
+    </body>
+</html>
